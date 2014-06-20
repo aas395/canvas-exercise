@@ -1,0 +1,6 @@
+1) Set canvas height and width and remove background color
+2) Draw a black circle (100,100,50,0, 1.5*Math.PI)
+3) Draw a red circle (#FA4542)
+4) Add GA text
+5) Refactor code to create functions for adding circles (include context in args) and text
+6) add more circles
