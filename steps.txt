@@ -3,4 +3,5 @@
 3) Draw a red circle (#FA4542)
 4) Add GA text
 5) Refactor code to create functions for adding circles (include context in args) and text
-6) Animate circle
+6) Create smaller black circle at 25, 25
+7) Animate circle

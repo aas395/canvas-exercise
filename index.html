@@ -2,6 +2,13 @@
 <html>
 	<head>
 		<style>
+		@font-face {
+			font-family: 'PFDinTextCompPro-Bold';
+			src: url('PFDinTextCompPro-Bold.ttf');
+		}
+		body * {
+			font-family: 'PFDinTextCompPro-Bold';
+		}
 		#palette {
 			position: absolute;
 			top: 0;
@@ -9,12 +16,13 @@
 			left: 0;
 			right: 0;
 			margin: auto;
-			background: black;
 		}
 		</style>
 	</head>
 	<body>
 		<canvas id="palette" height="200" width="200"></canvas>
+		<!-- need to add some text so the browser loads our font -->
+		<div>&nbsp;</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
 	</body>
