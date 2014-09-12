@@ -2,8 +2,7 @@ Canvas is a powerful way to create images, animations, and games dynamically usi
 
 Here we are going to recreate the GA logo using canvas. I have added all the necessary files for you to complete the exercise, so all you need to do is write the canvas code.
 
-
-
+Here are the steps you will need to take:
 
 1) Set canvas height and width and remove background color
 2) Draw a black circle (100,100,50,0, 1.5*Math.PI)
